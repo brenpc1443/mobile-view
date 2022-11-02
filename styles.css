@@ -39,13 +39,15 @@ html{
     color: var(--white);
 }
 .header-title p{
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.8);
 }
 .header-text{
+    margin: 0 30px;
     font-size: 1.2rem;
     font-weight: 300;
-    background-color: rgba(0, 0, 0, 0.075);
-    color: rgb(225, 225, 225);
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0px 0px 5px 6px rgb(255 255 255 / 25%);
+    color: var(--color-principal);
 }
 .header-text b{
     color: black;
