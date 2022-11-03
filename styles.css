@@ -68,3 +68,128 @@ html{
 
 /* **<*>** */
 
+.main-presentation{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    background-color: var(--white);
+}
+.presentation-hotel{
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+.presentation-hotel h2{
+    margin: 20px 0; 
+    font-size: 2rem;
+    color: var(--color-secundario);
+}
+.presentation-hotel p{
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 25px;
+    color: var(--color-principal);
+}
+.presentation-hotel__image img{
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.presentation-place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+    height: 330px;
+    margin: 10px auto;
+    background-image: url(./imagenes/arbolito.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.presentation-place__text{
+    width: 90%;
+    height: 90%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.50);
+    box-shadow: 0px 5px 6px rgb(255 255 255 / 25%);
+    text-align: center;
+}
+.presentation-place__text h3{
+    margin: 15px 0;
+    font-size: 2rem;
+    color: var(--color-principal);
+}
+.presentation-place__text p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 23px;  
+}
+.main-rooms{
+    width: 100%;
+    height: auto;
+    background-color: var(--color-principal);
+    padding: 30px 0;
+}
+.main-rooms__text{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: var(--color-terceario);
+}
+.main-rooms__text h2{
+    margin: 20px 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--white);
+}
+.main-rooms__text p{
+    font-size: 1.6rem;
+}
+.rooms-text__list{
+    padding: 10px 0;
+}
+.rooms-text__list li{
+    padding-left: 10px;
+    margin-left: 30px;
+    list-style:circle;
+    line-height: 22px;
+}
+.main-rooms__images{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 10px auto;
+}
+.rooms-images__one,
+.rooms-images__two{
+    position: relative;
+}
+.rooms-images__one{
+    margin-bottom: 30px;
+}
+.rooms-images__two{
+    align-self: flex-end;
+}
+.rooms-images__text{
+    position: absolute;
+    top: 12px;
+    padding: 10px;
+    background-color: var(--color-terceario);
+    font-size: 1.5rem;
+}
+.rooms-images__one .rooms-images__text{
+    right: -5vw;
+    left: 10vw;
+}
+.rooms-images__two .rooms-images__text{
+    text-align: right;
+    left: -50vw;
+    right: 10vw;
+}
+.rooms-image img{
+    width: 280px;
+}
