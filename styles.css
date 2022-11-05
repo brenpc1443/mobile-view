@@ -104,6 +104,7 @@ html {
   width: 97%;
   height: 330px;
   margin: 10px auto;
+  margin-bottom: 50px;
   background-image: url(./imagenes/arbolito.JPG);
   background-position: center;
   background-repeat: no-repeat;
@@ -130,21 +131,21 @@ html {
 .main-rooms {
   width: 100%;
   height: auto;
-  background-color: var(--color-principal);
+  background-color:#f7ea9e;
   padding: 30px 0;
 }
 .main-rooms__text {
   width: 90%;
   margin: 0 auto;
   margin-bottom: 10px;
-  color: var(--color-terceario);
+  color: var(--color-principal);
 }
 .main-rooms__text h2 {
   margin: 20px 0;
   font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
-  color: var(--white);
+  color: black;
 }
 .main-rooms__text p {
   font-size: 1.6rem;
@@ -167,6 +168,7 @@ html {
 }
 .rooms-images__one,
 .rooms-images__two {
+  color: var(--white);
   position: relative;
 }
 .rooms-images__one {
@@ -179,7 +181,7 @@ html {
   position: absolute;
   top: 12px;
   padding: 10px;
-  background-color: var(--color-terceario);
+  background-color: var(--color-principal);
   font-size: 1.5rem;
 }
 .rooms-images__one .rooms-images__text {
